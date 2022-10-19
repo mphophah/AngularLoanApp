@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>5.0.0</Version>
+    <Description>Data Access Layer for the Loan Application</Description>
+    <Copyright>Copyright © 2022 www.mpho.com</Copyright>
+    <PackageProjectUrl>https://www.mpho.co.za</PackageProjectUrl>
+    <Company>Mpho</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+  </ItemGroup>
+
+</Project>

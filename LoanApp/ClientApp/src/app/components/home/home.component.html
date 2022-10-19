@@ -1,0 +1,35 @@
+<app-page-header title="Dashboard" icon="dashboard"></app-page-header>
+<div class="page-content">
+
+  <div [@fadeInOut]>
+    <mat-card class="mat-elevation-z8" *ngIf="!configurations.showDashboardStatistics && !configurations.showDashboardNotifications && !configurations.showDashboardTodo && !configurations.showDashboardBanner">
+      <h4>
+        {{'home.NoWidgets1' | translate}} <a routerLink="/settings" fragment="preferences">{{'settings.tab.Preferences' | translate}}</a>
+        {{'home.NoWidgets2' | translate}}
+      </h4>
+    </mat-card>
+
+    <div class="row" >
+      <div class="col-lg-3 col-xs-6">
+        <!-- small box -->
+        <div class="small-box bg-green">
+          <div class="inner">
+            <h3>Loans Stats</h3>
+            <p>Dashboard</p>
+          </div>
+          <div class="icon">
+            <i class="fa fa-user-plus"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-xs-6">
+
+    </div>
+
+
+    </div>
+</div>
+
+
+
+
